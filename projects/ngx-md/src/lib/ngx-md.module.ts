@@ -13,7 +13,7 @@ export class NgxMdModule {
   public static forRoot(): ModuleWithProviders {
     return {
       ngModule: NgxMdModule,
-      providers: [NgxMdConfig]
+      providers: [NgxMdConfig],
     };
   }
 }
